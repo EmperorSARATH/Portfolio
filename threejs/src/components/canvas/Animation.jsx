@@ -5,12 +5,12 @@ import { Float, OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 import { RectAreaLight } from "three";
 
-const Computers = ({ isMobile }) => {
+const Animation = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
 
   return (
     <mesh >
-      <hemisphereLight intensity={1} groundColor='black' />
+      <hemisphereLight intensity={1}/>
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
@@ -30,7 +30,7 @@ const Computers = ({ isMobile }) => {
   );
 };
 
-const ComputersCanvas = () => {
+const AnimationCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -68,7 +68,7 @@ const ComputersCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <Computers isMobile={isMobile} />
+        <Animation isMobile={isMobile} />
       </Suspense>
 
       <Preload all />
@@ -76,4 +76,4 @@ const ComputersCanvas = () => {
   );
 };
 
-export default ComputersCanvas;
+export default AnimationCanvas;
