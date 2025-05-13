@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import AnimationCanvas from "./canvas/Animation";
-import { SectionWrapper } from "../hoc";
+//import { SectionWrapper } from "../hoc";
 
 const Hero = () => {
   return (
