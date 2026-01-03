@@ -41,11 +41,11 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   const services = [
     {
-      title: "Web Developer",
+      title: "Front end Developer",
       icon: web,
     },
     {
-      title: "Flutter Developer",
+      title: "Fullstack Developer",
       icon: mobile,
     },
     {
@@ -70,8 +70,8 @@ const About = () => {
         variants={fadeIn("", "", 0.5, 1)}
         className='mt-4 text-secondary text-white  text-[19px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
+        I'm a skilled software developer with experience in java,TypeScript and
+        JavaScript, and expertise in frameworks like React,Spring boot, express Node.js, and
         Three.js. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
