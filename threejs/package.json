@@ -2,6 +2,11 @@
   "name": "threejs",
   "version": "0.1.0",
   "private": true,
+
+   "engines": {
+    "node": ">=24"
+  },
+
   "dependencies": {
     "@react-three/drei": "^9.88.9",
     "@react-three/fiber": "^8.15.9",
