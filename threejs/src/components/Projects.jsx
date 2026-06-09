@@ -21,9 +21,9 @@ const Projects = () => {
 
   var Projects = [
     {
-      title: "Anime List",
+      title: "Code Quest",
       icon: anime,
-      url: "https://github.com/EmperorSARATH/Anime-Movie-List-React"
+      url: "https://job-portal-lall.onrender.com/"
     },
     {
       title: "Git-hub Analytics",
