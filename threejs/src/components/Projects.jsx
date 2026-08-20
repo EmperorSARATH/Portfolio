@@ -66,11 +66,11 @@ const Projects = () => {
           </Tilt>
         ))}
       </div>
-      <div className='sm:w-[250px] xs:w-[250px] pb-20 mr-10 flex justify-center items-start'>
-        <div className='w-[35px] h-[35px] rounded-3xl border-2 border-secondary flex justify-center items-start p-0'>
-          <button onClick={scrollToAnchor}>T</button>
-        </div>
-      </div>
+      {/* <div className='sm:w-[250px] xs:w-[250px] pb-20 mr-10 flex justify-center items-start'> */}
+      {/*   <div className='w-[35px] h-[35px] rounded-3xl border-2 border-secondary flex justify-center items-start p-0'> */}
+      {/*     <button onClick={scrollToAnchor}>T</button> */}
+      {/*   </div> */}
+      {/* </div> */}
     </section>
   )
 }
