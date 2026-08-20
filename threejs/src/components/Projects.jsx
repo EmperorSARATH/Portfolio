@@ -8,7 +8,7 @@ import examportal from "../assets/examportal.jpg"
 import * as Scroll from 'react-scroll';
 
 const Projects = () => {
-  const scroller = Scroll.scroller;
+  // const scroller = Scroll.scroller;
 
   // const scrollToAnchor = () => {
   //   scroller.scrollTo('hero', {
