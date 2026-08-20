@@ -10,20 +10,20 @@ import * as Scroll from 'react-scroll';
 const Projects = () => {
   const scroller = Scroll.scroller;
 
-  const scrollToAnchor = () => {
-    scroller.scrollTo('hero', {
-      duration: 100,
-      delay: 100,
-      smooth: true,
-      offset: 50
-    });
-  };
+  // const scrollToAnchor = () => {
+  //   scroller.scrollTo('hero', {
+  //     duration: 100,
+  //     delay: 100,
+  //     smooth: true,
+  //     offset: 50
+  //   });
+  // };
 
   var Projects = [
     {
       title: "Code Quest",
       icon: anime,
-      url: "https://job-portal-lall.onrender.com/"
+      url: "https://github.com/EmperorSARATH/Anime-Movie-List-React"
     },
     {
       title: "Git-hub Analytics",
@@ -67,8 +67,7 @@ const Projects = () => {
         ))}
       </div>
       {/* <div className='sm:w-[250px] xs:w-[250px] pb-20 mr-10 flex justify-center items-start'> */}
-      {/*   <div className='w-[35px] h-[35px] rounded-3xl border-2 border-secondary flex justify-center items-start p-0'> */}
-      {/*     <button onClick={scrollToAnchor}>T</button> */}
+      {/*   <div className='w-[35px] h-[35px] rounded-3xl border-2 border-secondary flex justify-center items-start p-0'> */} {/*     <button onClick={scrollToAnchor}>T</button> */}
       {/*   </div> */}
       {/* </div> */}
     </section>
