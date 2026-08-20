@@ -5,7 +5,7 @@ import HealthCare from "../assets/HealthCare.png"
 import Ecommerce from "../assets/Ecommerce.png"
 import anime from "../assets/anime.png"
 import examportal from "../assets/examportal.jpg"
-import * as Scroll from 'react-scroll';
+//import * as Scroll from 'react-scroll';
 
 const Projects = () => {
   // const scroller = Scroll.scroller;
