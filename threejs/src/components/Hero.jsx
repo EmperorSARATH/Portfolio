@@ -15,21 +15,20 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 yellow-gradient' />
         </div>
 
-        <div>
+        <div className="sm:justify-center">
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#F0F708]'>Sarath</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I build websites and learn other <br className='sm:block hidden' />
-            technology so that i can build cool things.
-            
+            I build web applications and <br className='sm:block hidden' />
+            dive deep into core fundamentals to craft reliable, high-performance software.
           </p>
         </div>
       </div>
 
       <AnimationCanvas/>
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      <div className='absolute xs:bottom-20 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
