@@ -8,7 +8,6 @@ import { fadeIn, textVariant } from "../utils/motion";
 import web from "../assets/web.png";
 import mobile from "../assets/mobile.png";
 import backend from "../assets/backend.png";
-import creator from "../assets/creator.png";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
