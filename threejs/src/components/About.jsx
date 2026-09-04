@@ -58,15 +58,14 @@ const About = () => {
     <div className=' green-pink-gradient rounded-[20px] shadow-card  p-5'>
 
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Introduction.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.5, 1)}
         className='mt-4 text-secondary text-white  text-[19px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in java,TypeScript and
+        I'm a skilled software developer with experience in Java,TypeScript and
         JavaScript, and expertise in frameworks like React,Spring boot, express Node.js, and
         Three.js. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve

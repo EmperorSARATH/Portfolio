@@ -1,7 +1,6 @@
 import { Tilt } from "react-tilt";
 import { React } from "react";
 import { styles } from "../styles";
-import HealthCare from "../assets/HealthCare.png"
 import Ecommerce from "../assets/Ecommerce.png"
 import anime from "../assets/anime.png"
 import examportal from "../assets/examportal.jpg"
@@ -21,19 +20,15 @@ const Projects = () => {
 
   var Projects = [
     {
-      title: "Code Quest",
+      title: "Job Portal",
       icon: anime,
-      url: "https://github.com/EmperorSARATH/Anime-Movie-List-React"
+      url: "https://job-portal-lall.onrender.com/"
     },
     {
       title: "Git-hub Analytics",
       icon: Ecommerce,
       url: "https://github-analytics-chi.vercel.app/"
 
-    },
-    {
-      title: "healthcare",
-      icon: HealthCare
     },
     {
       title: "Blog Web App",
