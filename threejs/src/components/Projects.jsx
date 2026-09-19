@@ -31,9 +31,9 @@ const Projects = () => {
 
     },
     {
-      title: "Blog Web App",
+      title: "Leetcode-TUI",
       icon: examportal,
-      url: "https://github.com/EmperorSARATH/Blog-webapp"
+      url: "https://github.com/EmperorSARATH/leetcode-tui"
     }
   ];
 
