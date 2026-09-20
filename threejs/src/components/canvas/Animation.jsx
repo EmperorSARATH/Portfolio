@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Animation = ({ isMobile }) => {
-    const computer = useGLTF("./desktop_pc/scene.gltf");
+    const goku = useGLTF("./desktop_pc/scene.gltf");
 
     return (
         <mesh>
@@ -20,7 +20,7 @@ const Animation = ({ isMobile }) => {
             />
             <pointLight intensity={1} />
             <primitive
-                object={computer.scene}
+                object={goku.scene}
                 scale={isMobile ? 1.4 : 4.3}
                 position={isMobile ? [0, -1.4, 0] : [1, -1, -4]}
                 rotation={[0.2, 0.8, 0]}
