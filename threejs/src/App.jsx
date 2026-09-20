@@ -17,10 +17,11 @@ function App() {
 
                     </Element>
                     <About />
-                    <br /> <br /> <br /> <br /> <br /> <br /><br />
-                    <Projects />
+                    <section className="mt-40">
+                        <Projects />
+                    </section>
                     <section className="mt-32">
-                        <Contact/>
+                        <Contact />
                     </section>
                 </div>
             </div>
